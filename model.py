@@ -5,6 +5,7 @@ import tensorflow_addons as tfa
 BATCH_SIZE = 32
 
 
+
 class EquationSolver(keras.models.Model):
     def __init__(self, units=128, encoder_embedding_size=32, decoder_embedding_size=32, input_dim=42, sos_id=43,
                  **kwargs):

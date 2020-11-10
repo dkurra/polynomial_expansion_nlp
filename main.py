@@ -10,6 +10,7 @@ import pickle
 import itertools
 
 
+
 def load_file(file_path: str) -> Tuple[Tuple[str], Tuple[str]]:
     """ A helper functions that loads the file into a tuple of strings
 
