@@ -2,7 +2,7 @@ import sys
 from typing import Tuple
 
 MAX_SEQUENCE_LENGTH = 29
-TRAIN_URL = "https://scale-static-assets.s3-us-west-2.amazonaws.com/ml-interview/expand/train.txt"
+TRAIN_URL = ""
 
 from model import EquationSolver
 from utils import *
